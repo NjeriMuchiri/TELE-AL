@@ -11,6 +11,7 @@
             "authentication": "Windows",
             "startupObjectId": 22,
             "startupObjectType": "Page",
+            "port":7049,
             "breakOnError": "All",
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
