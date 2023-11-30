@@ -1,0 +1,44 @@
+OBJECT page 172047 MPESA Tarrif Details
+{
+  OBJECT-PROPERTIES
+  {
+    Date=08/17/18;
+    Time=[ 6:42:37 PM];
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+    SourceTable=Table51516273;
+    PageType=List;
+  }
+  CONTROLS
+  {
+    { 1000000000;0;Container;
+                ContainerType=ContentArea }
+
+    { 1000000001;1;Group  ;
+                Name=Group;
+                GroupType=Repeater }
+
+    { 1000000002;2;Field  ;
+                SourceExpr=Code }
+
+    { 1000000003;2;Field  ;
+                SourceExpr="Lower Limit" }
+
+    { 1000000004;2;Field  ;
+                SourceExpr="Upper Limit" }
+
+    { 1000000005;2;Field  ;
+                SourceExpr="Charge Amount" }
+
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+
